@@ -1,0 +1,25 @@
+/*propiedades personalizadas / custom properties*/
+:root{
+    --primary-m-violet:hsl(263, 55%, 52%);
+    --primary-vd-grayish-blue:hsl(217, 19%, 35%);
+    --primary-vd-blackish-blue:hsl(219, 29%, 14%);
+    --primary-white:hsl(0, 0%, 100%);
+
+    --neutral-light-gray:hsl(0, 0%, 81%);
+    --neutral-l-grayish-blue:hsl(210, 46%, 95%);
+}
+
+/*box-sizing fix*/
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+/*propiedades Frontend mentor / Frontend mentor properties*/
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
